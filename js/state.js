@@ -9,3 +9,8 @@ function addFavorite(city) {
     localStorage.setItem("favorites", JSON.stringify(state.favorites));
   }
 }
+
+function removeFavorite(city) {
+  state.favorites = state.favorites.filter(c => c !== city);
+  localStorage.setItem("favorites", JSON.stringify(state.favorites));
+}
