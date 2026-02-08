@@ -98,3 +98,50 @@ li button {
   padding: 2px 6px;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+
+  .app {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+  }
+
+  .search {
+    display: flex;
+    gap: 8px;
+  }
+
+  .search input {
+    width: 100%;
+    flex: 1;
+  }
+
+  .search button {
+    padding: 8px 10px;
+  }
+
+  .forecast-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .forecast-item .temp {
+    font-size: 16px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+}
