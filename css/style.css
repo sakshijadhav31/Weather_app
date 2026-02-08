@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.search input {
+  padding: 8px;
+  width: 60%;
+}
+
+.search button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.card {
+  background: #f3f3f3;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.forecast div {
+  background: #e3f2fd;
+  padding: 10px;
+  border-radius: 6px;
+  width: 18%;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  color: blue;
+}
