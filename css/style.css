@@ -31,18 +31,43 @@ body {
   border-radius: 8px;
 }
 
-.forecast {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 15px;
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+  background: #f1f5f9;
+  padding: 12px;
+  border-radius: 12px;
 }
 
-.forecast div {
-  background: #e3f2fd;
-  padding: 10px;
-  border-radius: 6px;
-  width: 18%;
+.forecast-item {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 14px 10px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
 }
+
+.forecast-item .day {
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.forecast-item .temp {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2563eb;
+  margin: 6px 0;
+}
+
+.forecast-item .desc {
+  font-size: 12px;
+  color: #475569;
+}
+
 
 .error {
   color: red;
